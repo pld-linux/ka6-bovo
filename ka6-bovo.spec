@@ -6,6 +6,7 @@
 %define		qtver		5.15.2
 %define		kaname		bovo
 Summary:	A Gomoku like game
+Summary(pl.UTF-8):	Kółko i krzyżyk (do pięciu w rzędzie)
 Name:		ka6-%{kaname}
 Version:	26.04.1
 Release:	1
