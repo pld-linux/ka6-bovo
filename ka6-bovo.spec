@@ -1,19 +1,19 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	26.08.0
+%define		kdeappsver	26.08.1
 %define		kframever	5.94.0
 %define		qtver		5.15.2
 %define		kaname		bovo
 Summary:	A Gomoku like game
 Summary(pl.UTF-8):	Kółko i krzyżyk (do pięciu w rzędzie)
 Name:		ka6-%{kaname}
-Version:	26.08.0
+Version:	26.08.1
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Applications/Games
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	9717f05158699fc4ec65354ee734e7ee
+# Source0-md5:	2751aee113c2973c2b129d692b34a1b2
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Concurrent-devel
 BuildRequires:	Qt6Core-devel >= %{qtver}
